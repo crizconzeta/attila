@@ -2,6 +2,13 @@
 = Attila
 A content focused responsive pelican theme
 
+[![Package Build and Test](https://github.com/crizconzeta/attila/actions/workflows/main.yml/badge.svg)](https://github.com/crizconzeta/attila/actions/workflows/main.yml)
+
+Changes:
+ - Replace Google fonts and cdn 
+ - Add Font Awesome for icons
+
+ 
 image:attila.png[attila]
 
 :toc: left
