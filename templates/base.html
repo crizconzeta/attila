@@ -96,6 +96,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
   {% endif %}
 
+  <!-- Font awesome icons pack -->
+<script src="https://kit.fontawesome.com/eb39144ad9.js" crossorigin="anonymous"></script>
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -209,7 +212,7 @@
     {% block content %}{% endblock content %}
     <div class="nav-footer">
       <nav class="nav-wrapper" aria-label="Footer">
-        <span class="nav-copy">{{ SITENAME }} &copy; {{ COPYRIGHT_YEAR|default(2023) }}
+        <span class="nav-copy">{{ SITENAME }} &copy; {{ COPYRIGHT_YEAR|default(2025) }}
         {% for name,link in SOCIAL if name.lower() in ['rss', 'rss-square', 'feed'] %}
           <a class="nav-rss" title="RSS" href="{{ link }}" target="_blank"><i class="icon icon-rss"></i></a>
         {% endfor %}
