@@ -92,8 +92,14 @@
 
   {% if ALLOW_GOOGLE_FONTS|default(True) %}
   <!-- Custom fonts -->
+<!-- Replace Google with Bunny Fonts
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  -->
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=montserrat:300,400,900" rel="stylesheet" />
+<link href="https://fonts.bunny.net/css?family=Lato" rel="stylesheet" type="text/css" />
+
   {% endif %}
 
   <!-- Font awesome icons pack -->
@@ -243,7 +249,7 @@
 
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
   <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
